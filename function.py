@@ -1,0 +1,6 @@
+course=("python","php","java")
+print(type(course))
+print(course)
+ec=enumerate(course)
+print(ec,"php")
+print(type(ec))

@@ -1,0 +1,15 @@
+l=[10,25.5,True,"ABHI",25.5]
+L=[34,5,567,34,89,56.7]
+l1=l.copy()
+print(l1)
+l1.append("karan")
+print(l1)
+print(l.count(25.5))
+print(l.clear())
+print(l1.index("ABHI"))
+l1.reverse()
+L.sort()
+print(l1)
+print(L)
+L.remove(567)
+L.pop(3)
